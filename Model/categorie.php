@@ -29,7 +29,7 @@ class Categorie {
      */ 
     public function setId($_idcat)
     {
-        $this->_idkw = $_idcat;
+        $this->_idcat = $_idcat;
 
         return $this;
     }
@@ -49,7 +49,7 @@ class Categorie {
      */
     public function setNom($_nomcat)
     {
-        $this->_nomkw = $_nomcat;
+        $this->_nomcat = $_nomcat;
 
         return $this;
     }
